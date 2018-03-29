@@ -10,6 +10,10 @@ th {
   border-right: solid 1px #ccc;
 }
 
+td {
+  height: 7em;
+}
+
 li {
   color: #333;
   border: solid 1px #666;
