@@ -7,16 +7,17 @@
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,700" rel="stylesheet">
 </head>
 <body>
 
   <main>
-    <div>
-      <h1 class="giga italic not-bold pad-t">November, 1963</h1>
+    <div class="island">
+      <h1 class="giga italic not-bold pad-t text-center">November, 1963</h1>
 
       <div>
-        <table border="1">
+        <table>
+          <caption></caption>
           <thead>
             <tr>
               <th scope="col">Sun</th>
@@ -26,26 +27,26 @@
               <th scope="col">Thu</th>
               <th scope="col">Fri</th>
               <th scope="col">Sat</th>
-            <tr>
+            </tr>
           </thead>
 
           <tbody>
             <!-- Week One -->
             <tr>
               <td colspan="5"></td>
-              <td>1</td>
+              <td class="bold text-right">1</td>
               <td>2</td>
             </tr>
           </tbody>
           <!-- Week Two -->
           <tbody>
             <tr>
-              <td scope="row">
+              <th scope="row">
                 <div>3</div>
-                  <ul>
-                    <li>Vostok 3 & 6 launched</li>
-                  </ul>
-              </td>
+                <ul class="list-group">
+                  <li class="not-bold micro grey">Vostok 3 & 6 launched</li>
+                </ul>
+              </th>
               <td>4</td>
               <td>5</td>
               <td>6</td>
@@ -57,27 +58,27 @@
           <!-- Week Three -->
           <tbody>
             <tr>
-              <td scope="row">10</td>
+              <th scope="row">10</th>
               <td>
                 <div>11</div>
-                  <ul>
-                    <li>Rememberance Day</li>
-                  </ul>
-                  <ul>
-                    <li>Kosmos 21 failed to escape orbit</li>
-                  <ul>
+                <ul class="list-group">
+                  <li class="not-bold micro red">Rememberance Day</li>
+                </ul>
+                <ul class="list-group">
+                  <li class="not-bold micro grey">Kosmos 21 failed to escape orbit</li>
+                </ul>
               </td>
               <td>12</td>
               <td>13</td>
               <td>14</td>
               <td>
                 <div>15</div>
-                  <ul>
-                    <li>Surtsey Island created</li>
-                  </ul>
-                  <ul>
-                    <li>Robert W. Smith set altitude record</li>
-                  </ul>
+                <ul class="list-group">
+                  <li class="not-bold micro green">Surtsey Island created</li>
+                </ul>
+                <ul class="list-group">
+                  <li class="not-bold micro green">Robert W. Smith set altitude record</li>
+                </ul>
               </td>
               <td>16</td>
             </tr>
@@ -85,21 +86,41 @@
           <!-- Week Four -->
           <tbody>
             <tr>
-              <td scope="row">17</td>
+              <th scope="row">17</th>
               <td>18</td>
               <td>19</td>
               <td>20</td>
-              <td>21</td>
-              <td>22</td>
-              <td>23</td>
+              <td>
+                <div>21</div>
+                <ul class="list-group">
+                  <li class="not-bold micro grey">India launched its first rocket</li>
+                </ul>
+              </td>
+              <td>
+                <div>22</div>
+                <ul class="list-group">
+                  <li class="not-bold micro blue">Death of Aldous Huxley</li>
+                </ul>
+              </td>
+              <td>
+                <div>23</div>
+                <ul class="list-group">
+                  <li class="not-bold micro blue">Doctor Who premiered</li>
+                </ul>
+              </td>
             </tr>
           </tbody>
           <!-- Week Five -->
           <tbody>
             <tr>
-              <td scope="row">24</td>
+              <th scope="row">24</th>
               <td>25</td>
-              <td>26</td>
+              <td>
+                <div>26</div>
+                <ul class="list-group">
+                  <li class="not-bold micro grey">Explorer 18 launched</li>
+                </ul>
+              </td>
               <td>27</td>
               <td>28</td>
               <td>29</td>
@@ -110,7 +131,6 @@
       </div>
     </div>
   </main>
-
 
 </body>
 </html>

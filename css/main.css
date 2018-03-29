@@ -1,4 +1,39 @@
-h1 {
-  font-family: 'Merriweather', serif;
-  text-align: center;
+html {
+  font-family: Merriweather, serif;
+}
+
+tr, th, td {
+  border-right: solid 1px #ccc;
+}
+
+th {
+  border-right: solid 1px #ccc;
+}
+
+li {
+  color: #333;
+  border: solid 1px #666;
+  border-radius: 8px;
+}
+
+.grey {
+  background-color: #f2f2f2;
+}
+
+.red {
+  background-color: #f2bcbc;
+  border: solid 1px #b92828;
+  color: #991919;
+}
+
+.green {
+  background-color: #d1e0bf;
+  border: solid 1px #6b7e54;
+  color: #51603f;
+}
+
+.blue {
+  background-color: #d2d6f0;
+  border: solid 1px #1d38da;
+  color: #38448e;
 }
